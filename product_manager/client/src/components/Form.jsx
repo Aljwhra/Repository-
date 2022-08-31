@@ -15,10 +15,10 @@ const Form = () => {
         })
             .then(res => console.log(res))
             .catch(err => console.log(err))
+            
     }
     return (
-        <>
-            <h1>All Products</h1>
+ 
 
             <form onSubmit={onSubmitHandler}>
                 <p>
@@ -36,7 +36,7 @@ const Form = () => {
 
                 <input type="submit" />
             </form>
-        </>
+    
     );
 }
 
